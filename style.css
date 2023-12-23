@@ -16,6 +16,7 @@ body {
     background-image: url('image/bgr2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .container {
@@ -816,6 +817,7 @@ section {
     transform: scale(0.01);
     visibility: hidden;
     transition: 0.5s;
+
 }
 
 .box-content.active {
@@ -839,13 +841,14 @@ section {
 
 .content1 {
     position: absolute;
-    width: 100%;
+    width: 80%;
     border: 2px solid red;
     height: 400px;
     background-image: radial-gradient(circle farthest-corner at center, #f9edf3 10%, #ffd3ee 100%);
     border-radius: 10px 70px 10px 70px;
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
     cursor: pointer;
+
 }
 
 h1 {
@@ -891,6 +894,7 @@ i {
 .box-content:hover #text1 {
     animation: contentText 3s forwards;
     animation-delay: 1s;
+    
 }
 
 @keyframes contentText {
